@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="32" passed="19" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-30T02:03:23 EET" name="nopcommerce regression suite" finished-at="2023-07-30T02:05:45 EET" duration-ms="142199">
+    <groups>
+    </groups>
+    <test started-at="2023-07-30T02:03:23 EET" name="Regression Test" finished-at="2023-07-30T02:05:45 EET" duration-ms="142199">
+      <class name="tests.MyaccountTest">
+        <test-method signature="UserCanRegSucc()[pri:1, instance:tests.MyaccountTest@65f8f5ae]" started-at="2023-07-30T02:05:42 EET" name="UserCanRegSucc" finished-at="2023-07-30T02:05:43 EET" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegSucc -->
+        <test-method signature="RegisteredUserCanLogin()[pri:2, instance:tests.MyaccountTest@65f8f5ae]" started-at="2023-07-30T02:05:43 EET" name="RegisteredUserCanLogin" finished-at="2023-07-30T02:05:44 EET" duration-ms="1107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogin -->
+        <test-method signature="RegisteredUserCanChangePass()[pri:3, instance:tests.MyaccountTest@65f8f5ae]" started-at="2023-07-30T02:05:44 EET" name="RegisteredUserCanChangePass" finished-at="2023-07-30T02:05:45 EET" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanChangePass -->
+      </class> <!-- tests.MyaccountTest -->
+      <class name="tests.SearchProduct">
+        <test-method signature="UsercanSearch()[pri:0, instance:tests.SearchProduct@f1da57d]" started-at="2023-07-30T02:03:29 EET" name="UsercanSearch" finished-at="2023-07-30T02:03:30 EET" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsercanSearch -->
+      </class> <!-- tests.SearchProduct -->
+      <class name="tests.SelectCurrencyTest">
+        <test-method signature="CanChangeCurrency()[pri:1, instance:tests.SelectCurrencyTest@480d3575]" started-at="2023-07-30T02:03:27 EET" name="CanChangeCurrency" finished-at="2023-07-30T02:03:28 EET" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CanChangeCurrency -->
+        <test-method signature="UsercanSearch()[pri:2, instance:tests.SelectCurrencyTest@480d3575]" started-at="2023-07-30T02:03:28 EET" name="UsercanSearch" finished-at="2023-07-30T02:03:29 EET" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsercanSearch -->
+      </class> <!-- tests.SelectCurrencyTest -->
+      <class name="tests.EmailProductToFriendTest">
+        <test-method signature="UserCanRegSucc()[pri:1, instance:tests.EmailProductToFriendTest@194fad1]" started-at="2023-07-30T02:03:30 EET" name="UserCanRegSucc" finished-at="2023-07-30T02:03:31 EET" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegSucc -->
+        <test-method signature="RegisteredUserCanLogin()[pri:2, instance:tests.EmailProductToFriendTest@194fad1]" started-at="2023-07-30T02:03:31 EET" name="RegisteredUserCanLogin" finished-at="2023-07-30T02:03:33 EET" duration-ms="1182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogin -->
+        <test-method signature="UsercanSearch()[pri:3, instance:tests.EmailProductToFriendTest@194fad1]" started-at="2023-07-30T02:03:33 EET" name="UsercanSearch" finished-at="2023-07-30T02:03:34 EET" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsercanSearch -->
+        <test-method signature="RegisteredUserCanSendEmail()[pri:4, instance:tests.EmailProductToFriendTest@194fad1]" started-at="2023-07-30T02:03:34 EET" name="RegisteredUserCanSendEmail" finished-at="2023-07-30T02:03:35 EET" duration-ms="981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanSendEmail -->
+        <test-method signature="RegisteredUserCanLogout()[pri:5, instance:tests.EmailProductToFriendTest@194fad1]" started-at="2023-07-30T02:03:35 EET" name="RegisteredUserCanLogout" finished-at="2023-07-30T02:03:35 EET" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogout -->
+      </class> <!-- tests.EmailProductToFriendTest -->
+      <class name="tests.UserRegestrationTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.UserRegestrationTest@17bffc17]" started-at="2023-07-30T02:03:20 EET" name="startDriver" finished-at="2023-07-30T02:03:23 EET" duration-ms="3194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="UserCanRegSucc()[pri:1, instance:tests.UserRegestrationTest@17bffc17]" started-at="2023-07-30T02:03:23 EET" name="UserCanRegSucc" finished-at="2023-07-30T02:03:25 EET" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegSucc -->
+        <test-method signature="RegisteredUserCanLogin()[pri:0, instance:tests.UserRegestrationTest@17bffc17]" started-at="2023-07-30T02:03:25 EET" name="RegisteredUserCanLogin" finished-at="2023-07-30T02:03:27 EET" depends-on-methods="tests.UserRegestrationTest.UserCanRegSucc" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogin -->
+        <test-method signature="RegisteredUserCanLogout()[pri:0, instance:tests.UserRegestrationTest@17bffc17]" started-at="2023-07-30T02:03:27 EET" name="RegisteredUserCanLogout" finished-at="2023-07-30T02:03:27 EET" depends-on-methods="tests.UserRegestrationTest.UserCanRegSucc" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogout -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.UserRegestrationTest@17bffc17]" started-at="2023-07-30T02:05:45 EET" name="stopDriver" finished-at="2023-07-30T02:05:46 EET" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.UserRegestrationTest -->
+      <class name="tests.ContactUsTest">
+        <test-method signature="OpenContactUs()[pri:0, instance:tests.ContactUsTest@26abb146]" started-at="2023-07-30T02:03:35 EET" name="OpenContactUs" finished-at="2023-07-30T02:03:36 EET" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenContactUs -->
+      </class> <!-- tests.ContactUsTest -->
+      <class name="tests.AddProductReviewTest">
+        <test-method signature="UserCanRegSucc()[pri:1, instance:tests.AddProductReviewTest@72c8e7b]" started-at="2023-07-30T02:03:36 EET" name="UserCanRegSucc" finished-at="2023-07-30T02:05:37 EET" duration-ms="121237" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"div.result"}
+  (Session info: chrome=115.0.5790.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4689cfe083572613ae4460ef3eff2897, findElement {using=css selector, value=div.result}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55641/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4689cfe083572613ae4460ef3eff2897]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.result"}
+  (Session info: chrome=115.0.5790.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4689cfe083572613ae4460ef3eff2897, findElement {using=css selector, value=div.result}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55641/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4689cfe083572613ae4460ef3eff2897
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.getText(Unknown Source)
+at tests.AddProductReviewTest.UserCanRegSucc(AddProductReviewTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegSucc -->
+        <test-method signature="RegisteredUserCanLogin()[pri:2, instance:tests.AddProductReviewTest@72c8e7b]" started-at="2023-07-30T02:05:37 EET" name="RegisteredUserCanLogin" finished-at="2023-07-30T02:05:39 EET" duration-ms="1727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogin -->
+        <test-method signature="UsercanSearch()[pri:3, instance:tests.AddProductReviewTest@72c8e7b]" started-at="2023-07-30T02:05:39 EET" name="UsercanSearch" finished-at="2023-07-30T02:05:40 EET" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsercanSearch -->
+        <test-method signature="AddReviewToProduct()[pri:4, instance:tests.AddProductReviewTest@72c8e7b]" started-at="2023-07-30T02:05:40 EET" name="AddReviewToProduct" finished-at="2023-07-30T02:05:41 EET" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddReviewToProduct -->
+        <test-method signature="RegisteredUserCanLogout()[pri:5, instance:tests.AddProductReviewTest@72c8e7b]" started-at="2023-07-30T02:05:41 EET" name="RegisteredUserCanLogout" finished-at="2023-07-30T02:05:42 EET" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogout -->
+      </class> <!-- tests.AddProductReviewTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- nopcommerce regression suite -->
+</testng-results>
